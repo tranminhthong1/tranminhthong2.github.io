@@ -1,0 +1,382 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	width: 1920px;
+	height: 3408px;
+/*	background: grey;*/
+}
+.header{
+	height: 1024px;
+	width:  1920px;
+	background: url("../img/anh-background-nui-tuyet-dep_103228635.png");
+}
+.logo{
+	width: 660px;
+	height: 134px;
+/*	background: #A29494;*/
+	float: left;
+}
+.logo img{
+	margin-left: 349px;
+}
+.menu{
+	width: 1260px;
+	height: 134px;
+/*	background: #B9B5B5;*/
+	float: right;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+	margin-left: 30px;
+	margin-top: 65px;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+}
+.menu ul li a:hover{
+	color: #705115;
+}
+.menu img{
+	float: right;           
+}
+.Text{
+	width: 600px;
+	height: 600px;
+	float: left;
+	margin-top: 250px;
+	margin-left: 660px;
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+}
+.dot{
+	list-style: none;
+	margin-top: 400px;
+	color: white;
+}
+.Text .dot li{
+	display: inline-block;
+	font-size: 10px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	padding: 5px;
+}
+.Text .dot li:hover{
+	cursor: pointer;
+	border-color: aqua;
+	color: aqua;
+}
+.Text p{
+	font-size: 25px;
+}
+.Text h1{
+	font-size: 35px;
+}
+.Text p1{
+	font-size: 15px;
+}
+.Text button{
+	width: 150px;
+	height: 50px;
+	background: #1E9E94;
+	border-radius: 5px;
+	margin-top: 25px;
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+}
+.Text button:hover{
+	color: #C09515;
+}
+.content{
+	width: 1920px;
+	height: 4840px;
+/*	background: #625143;	*/
+}
+.Service{
+	width: 1234px;
+	height: 374px;
+/*	background: yellow;*/
+	float: left;
+	margin-left: 346px;
+}
+.Service .box-1{
+	width: 300px;
+	height: 374px;
+/*	background: #0811B1;*/
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 79px;
+}
+.box-1:hover{
+	background: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.box-1 i{
+	font-size: 50px;
+}
+.box-1:hover i{
+	color: blue;
+}
+.box-1:hover .line{
+	background: blue;
+}
+.box-1 h2{
+	font-size: 30px;
+}
+.box-1 p{
+	font-size: 14px;
+	color: black;
+	opacity: 80%
+}
+.line{
+	width: 50px;
+	height: 3px;
+	background: black;
+	margin: 0 auto;
+	margin-top: 25px
+}
+.box-2{
+	width: 300px;
+	height: 374px;
+/*	background: #0811B1;*/
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 79px;
+	margin-left: 12px
+}
+.box-2 i{
+	font-size: 50px;
+}
+.box-2:hover i{
+	color: blue;
+}
+.box-2:hover .line{
+	background: blue;
+}
+.box-2 h2{
+	font-size: 30px;
+}
+.box-2 p{
+	font-size: 14px;
+	color: black;
+	opacity: 80%
+}
+.box-3{
+	width: 300px;
+	height: 374px;
+/*	background: #0811B1;*/
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 79px;
+	margin-left: 10px;
+}
+.box-3 i{
+	font-size: 50px;
+}
+.box-3:hover i{
+	color: blue;
+}
+.box-3:hover .line{
+	background: blue;
+}
+.box-3 h2{
+	font-size: 30px;
+}
+.box-3 p{
+	font-size: 14px;
+	color: black;
+	opacity: 80%
+}
+.box-4{
+	width: 300px;
+	height: 374px;
+/*	background: #0811B1;*/
+	float: right;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 79px;
+	
+}
+.box-4 i{
+	font-size: 50px;
+	
+}
+.box-4:hover i{
+	color: blue;
+}
+.box-4:hover .line{
+	background: blue;
+}
+.box-4 h2{
+	font-size: 30px;
+}
+.box-4 p{
+	font-size: 14px;
+	color: black;
+	opacity: 80%
+}
+.Callaction{
+	width: 1234px;
+	height: 699px;
+/*	background: #6A4445;*/
+	float: left;
+	margin-left: 346px;
+}
+.text-ca{
+	width: 650px;
+	height: 214px;
+/*	background: pink;*/
+	position: relative;
+	float: left;
+	margin-left: 300px;
+}
+.text-ca h1{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 84px;
+}
+.text-ca p{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 30px;
+}
+.Waxom{
+	width: 1920px;
+	height: 169px;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,43,255,1) 45%, rgba(17,145,171,1) 89%);
+	float: left;
+}
+.text-wa{
+	width: 1234px;
+	height: 169px;
+/*	background: grey;*/
+	float: left;
+	margin-left: 346px;
+}
+.text-wa span{
+	color: #00d4ff;
+}
+.text-wa h1{
+	margin-left: 30px;
+	margin-top: 50px;
+	color: white;
+}
+.text-wa p{
+	margin-left: 30px;
+	font-size: 20px;
+	color: #1f1f5c;
+}
+.text-wa button{
+	width: 170px;
+	height: 50px;
+	border-radius: 5px;
+	float:right;
+	background: #00d4ff;
+	color: white;
+	margin-top: -50px;
+	margin-right: 30px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.Latest{
+	width: 1236px;
+	height: 1019px;
+/*	background: #350A0B;*/
+    float: left;
+	margin-left: 346px;
+}
+.text-la{
+	width: 650px;
+	height: 214px;
+/*	background: pink;*/
+	position: relative;
+	float: left;
+	margin-left: 300px;
+}
+.text-la h1{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 60px;
+}
+.text-la p{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+}
+.menu-boder ul{
+	list-style: none;
+}
+.menu-boder ul li a{
+	text-decoration: none;
+	float: left;
+	margin-left: 20px;
+	border: 1px solid black;
+	color: black;
+	width: 100px;
+	height: 30px;
+	border-radius: 2px; 
+	border-color: #525256
+}
+.menu-boder a{
+	text-align: center;
+	margin-top: 43px;
+	font-weight: inherit;
+	padding: 5px
+}
+.menu-boder ul li a:hover{
+	background: #2d6a77;
+}
+/*
+.Big-img{
+	width: 1169px;
+	height: 694px;
+	background: #0C8B4A;
+	margin-top: 214px;
+	margin-left: 31px;
+}
+*/
+.box-img{
+	width: 373px;
+	height: 337px;
+	background: url(../img/hinh-anh-thien-nhien-dep-ho-nuoc-dep.jpg);
+	float: left;
+	margin-left: 28px;
+	margin-top: 30px;
+	overflow: hidden;
+	
+	
+}
+.box-img h1{
+	margin-top: 260px;
+	font-size: 24px;
+	margin-left: 30px;
+}
+.box-img p{
+	margin-left: 30px;
+}
+.footer{
+	width: 1920px;
+	height: 145px;
+	background: #42B585;
+	float: left;
+}
+
+
+
+
+
+

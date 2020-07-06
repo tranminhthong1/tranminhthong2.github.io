@@ -1,0 +1,184 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	width: 1920px;
+	height: 6970px;
+	background: grey;
+}
+.header{
+	height: 1024px;
+	width:  1920px;
+	background: url("../img/anh-background-nui-tuyet-dep_103228635.png");
+}
+.logo{
+	width: 660px;
+	height: 134px;
+/*	background: #A29494;*/
+	float: left;
+}
+.logo img{
+	margin-left: 349px;
+}
+.menu{
+	width: 1260px;
+	height: 134px;
+/*	background: #B9B5B5;*/
+	float: right;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+	margin-left: 30px;
+	margin-top: 65px;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+}
+.menu ul li a:hover{
+	color: #705115;
+}
+.menu img{
+	float: right;           
+}
+.Text{
+	width: 600px;
+	height: 600px;
+	float: left;
+	margin-top: 250px;
+	margin-left: 660px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.dot{
+	list-style: none;
+	margin-top: 400px;
+	color: white;
+}
+.Text .dot li{
+	display: inline-block;
+	font-size: 10px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	padding: 5px;
+}
+.Text .dot li:hover{
+	cursor: pointer;
+	border-color: aqua;
+	color: aqua;
+}
+.Text p{
+	font-size: 25px;
+}
+.Text h1{
+	font-size: 35px;
+}
+.Text p1{
+	font-size: 15px;
+}
+.Text button{
+	width: 100px;
+	height: 40px;
+	background: #1E9E94;
+	border-radius: 5px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+.Text button:hover{
+	color: #C09515;
+}
+.content{
+	width: 1920px;
+	height: 4840px;
+	background: #625143;	
+}
+.Service{
+	width: 1234px;
+	height: 374px;
+	background: yellow;
+	float: left;
+	margin-left: 346px;
+}
+.Callaction{
+	width: 1234px;
+	height: 699px;
+	background: #6A4445;
+	float: left;
+	margin-left: 346px;
+}
+.Waxom{
+	width: 1920px;
+	height: 169px;
+	background: #407218;
+	float: left;
+}
+.Latest{
+	width: 1234px;
+	height: 1019px;
+	background: #350A0B;
+    float: left;
+	margin-left: 346px;
+}
+.Button-w{
+	width: 1920px;
+	height: 145px;
+	background: #42B585;
+	float: left;
+}
+.Video{
+	width: 1920px;
+	height: 708px;
+	background: #10977C;
+	float: left;
+}
+.Excellent{
+	width: 1234px;
+	height: 692px;
+	background: #EF8714;
+	float: left;
+}
+.Icon{
+	width: 1920px;
+	height: 300px;
+	background: #78577B;
+	float: left;
+}
+.Recent{
+	width: 1234px;
+	height: 756px;
+	background: #136864;
+	float: left;
+}
+.footer{
+	width: 1920px;
+	height: 1106px;
+	background: #8A3754;
+	float: left;
+}
+.Brand{
+	width: 1920px;
+	height: 486px;
+	background: #220303;
+	float: left;
+}
+.Dinel{
+	width: 1234px;
+	height: 512px;
+	float: left;
+	background: #2A0F10;
+}
+.End{
+	width: 1920px;
+	height: 108px;
+	background: #0C6E3E;
+	float: left;
+}
+
+
+
